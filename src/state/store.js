@@ -6,7 +6,7 @@ class MainStore {
     }
     formData = {}
     items = null
-    type = null
+    type = 'get'
     fetchItems() {
         if (this.type === 'get') {
             this.ifGet()

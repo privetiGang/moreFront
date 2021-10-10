@@ -1,0 +1,31 @@
+.DatasetItem {
+    border: 3px solid #0055ff;
+    width: 600px;
+    height: 250px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.DatasetItem_uls {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.DatasetItem>h3 {
+    margin-left: 10px;
+}
+
+.DatasetItem_buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}

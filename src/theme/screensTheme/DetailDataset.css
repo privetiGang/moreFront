@@ -1,0 +1,37 @@
+.DetailDataset {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DetailDataset_body {
+    width: 1000px;
+    margin: 30px;
+}
+
+DetailDataset_body>button {
+    justify-self: flex-end;
+}
+
+.DetailDataset_modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalBody {
+    width: 600px;
+    height: auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 8px;
+    border: 3px solid #0055ff;
+
+}
